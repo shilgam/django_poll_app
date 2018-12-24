@@ -13,3 +13,12 @@
         $ python manage.py runserver
 
 1. Go to http://localhost:8000/polls/ in your browser
+1. Create necessary db tables for apps in INSTALLED_APPS:
+
+        $ python manage.py migrate
+
+Additional info:
+
+1. Creating an admin user:
+
+        $ python manage.py createsuperuser
