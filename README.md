@@ -16,3 +16,9 @@
 1. Create necessary db tables for apps in INSTALLED_APPS:
 
         $ python manage.py migrate
+
+Additional info:
+
+1. Creating an admin user:
+
+        $ python manage.py createsuperuser
