@@ -17,6 +17,10 @@
 
         $ python manage.py migrate
 
+1. Run test suite:
+
+        $ python manage.py test
+
 Additional info:
 
 1. Creating an admin user:
